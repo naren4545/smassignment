@@ -178,6 +178,7 @@ img {
 .hash-bg {
   position: relative;
   overflow: hidden;
+      top: -203px;
  
 }
 .bg-img {
@@ -1294,8 +1295,16 @@ header .contact-btn:hover {
     padding: 0;
   }
   .hash-bg {
-    margin-top: 0;
+    top:0;
   }
+  .hero h1 {
+  padding: 15px;
+  }
+  .hero-about
+    {
+        padding: 0 20px;
+       
+    }
   p.testimonial-text {
     font-size: 10px;
     line-height: 16px;
