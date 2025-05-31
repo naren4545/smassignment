@@ -6,16 +6,32 @@
   <meta name="description" content="Custom Webflow Development, Maintenance, Support and Consulting Services for modern businesses. Get responsive design and top performance.">
   <meta name="keywords" content="Webflow, Webflow Development, Webflow Agency, Webflow Services, Custom Webflow Development, Webflow Maintenance, Webflow Support, Webflow Consulting">
   <title>Webflow Development Agency</title>
-<link rel="preload" href="/assets/logo%20(1).svg" as="image" type="image/svg+xml" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <!-- Preload critical logo image -->
+  <link rel="preload" href="/assets/logo%20(1).svg" as="image" type="image/svg+xml" />
 
+  <!-- ✅ Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- ✅ Preload + Non-blocking Google Fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+  </noscript>
+
+  <!-- ✅ Preload + Async load slick.css -->
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" />
+  </noscript>
+
+  <!-- ✅ Your local CSS - assumed to be critical -->
   <link rel="stylesheet" href="style.css" />
-  
 </head>
+
 <body>
  <header class="header">
   <div class="container">
