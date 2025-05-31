@@ -9,6 +9,7 @@
 
   <!-- Preload critical logo image -->
   <link rel="preload" href="/assets/logo%20(1).svg" as="image" type="image/svg+xml" />
+<link rel="preload" href="/assets/graphic.svg" as="image" type="image/svg+xml" />
 
   <!-- ✅ Preconnect Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -62,7 +63,8 @@
       <h1 class="hero-title container"><span>Webflow</span><br/>Development Agency</h1>
 
       <div class="graphic-card">
-       <img src="/assets/graphic.svg" width="100%"  height="100%" alt="Graphic Card" />
+       <img src="/assets/graphic.svg" width="600"
+  height="400" alt="Graphic Card" fetchpriority="high" />
        
       </div>
 
