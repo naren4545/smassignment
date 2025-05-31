@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Webflow Development Agency</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
   <link rel="stylesheet" href="style.css" />
@@ -39,7 +43,7 @@
       <h1 class="hero-title container"><span>Webflow</span><br/>Development Agency</h1>
 
       <div class="graphic-card">
-       <img src="/assets/Frame 21366.png" alt="Graphic Card" />
+       <img src="/assets/graphic.svg" alt="Graphic Card" />
        
       </div>
 
@@ -70,7 +74,7 @@
   </section>
 
   <section class="challenges-bg reveal">
-    <img src="/assets/Rectangle 3291.png" class="challenges-bg-image-real" style="max-height: 1103px;" alt="Challenges Background" class="" />
+    <img src="/assets/Rectangle 3291.png" loading="lazy" class="challenges-bg-image-real" style="max-height: 1103px;" alt="Challenges Background" class="" />
    
 <div class="challenges-bg-image"> 
     <div class="challenges container ">
@@ -151,7 +155,7 @@
   
 <section class="timeline-section reveal padding-vertical-section challenges-bg padding-vertical-section">
 
-    <img src="/assets/Rectangle 3292.png"  style="max-height: 1103px;" alt="Challenges Background" class="challenges-bg-image-real" />
+    <img src="/assets/Rectangle 3292.png"  style="max-height: 1103px;" alt="Challenges Background" loading="lazy" class="challenges-bg-image-real" />
 <div class="challenges-bg-image">
         <div class="container ">
           <div class="grid-x">
@@ -301,7 +305,7 @@
 
 
     <section class="challenges-bg  reveal">
-              <img src="/assets/Rectangle 3533.png" style="max-height: 740px;" alt="Challenges Background" class="challenges-bg-image-real" />
+              <img src="/assets/Rectangle 3533.png" style="max-height: 740px;" alt="Challenges Background" loading="lazy" class="challenges-bg-image-real" />
  <div class="challenges-bg-image">
       <div class="container">
        
@@ -353,7 +357,7 @@ Our webflow developers can easily connect your website with your favorite third 
 
 
 <section class="challenges-bg reveal">
-  <img src="/assets/bgimage.png" style="max-height: 740px;" alt="Challenges Background" class="challenges-bg-image-real" />
+  <img src="/assets/bgimage.png" style="max-height: 740px;" alt="Challenges Background" loading="lazy" class="challenges-bg-image-real" />
 
 <div class="challenges-bg-image ">
       <div class="container grid-x align-middle" >
@@ -371,13 +375,13 @@ Our webflow developers can easily connect your website with your favorite third 
 
 
         <div class="logo-slider">
-  <div class="logo-slide"><img src="/assets//logo1.svg" alt="Logo 1"></div>
-  <div class="logo-slide"><img src="/assets//logo2.svg" alt="Logo 2"></div>
-  <div class="logo-slide"><img src="/assets//logo3.svg" alt="Logo 3"></div>
-  <div class="logo-slide"><img src="/assets//logo4.svg" alt="Logo 4"></div>
-  <div class="logo-slide"><img src="/assets//logo5.svg" alt="Logo 5"></div>
-  <div class="logo-slide"><img src="/assets//logo6.svg" alt="Logo 6"></div>
-  <div class="logo-slide"><img src="/assets//logo7.svg" alt="Logo 7"></div>
+  <div class="logo-slide"><img src="/assets//logo1.svg" loading="lazy" alt="Logo 1"></div>
+  <div class="logo-slide"><img src="/assets//logo2.svg" loading="lazy" alt="Logo 2"></div>
+  <div class="logo-slide"><img src="/assets//logo3.svg" loading="lazy" alt="Logo 3"></div>
+  <div class="logo-slide"><img src="/assets//logo4.svg" loading="lazy" alt="Logo 4"></div>
+  <div class="logo-slide"><img src="/assets//logo5.svg" loading="lazy" alt="Logo 5"></div>
+  <div class="logo-slide"><img src="/assets//logo6.svg" loading="lazy" alt="Logo 6"></div>
+  <div class="logo-slide"><img src="/assets//logo7.svg" loading="lazy" alt="Logo 7"></div>
 </div>
       </div>
 
@@ -609,10 +613,13 @@ Enterprise Partner</button>
   </div>
 </div>
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Slick JS -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- ✅ Load jQuery (must come first) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
 
-    <script src="script.js"></script>
+<!-- ✅ Load Slick Carousel JS (after jQuery) -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+
+<!-- ✅ Load Your Custom Script (after Slick) -->
+<script src="script.js" defer></script>
 </body>
 </html>
